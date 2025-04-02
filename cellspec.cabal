@@ -17,7 +17,9 @@ common warnings
 
 library
     import:           warnings
-    exposed-modules:  CellSpec
+    exposed-modules:  
+        CellSpec
+        TransformationHelpers
     -- other-modules:
     -- other-extensions:
     build-depends:    

@@ -15,12 +15,15 @@ data CellSpecPlus = MkCsp
   , cspFg :: Color
   , cspBg :: Color
   , cspChar :: Char }
+  deriving Show
 
 data DefaultCellSpec = MkDcs
   { dcsPos :: Natural
   , dcsChar :: Char }
+  deriving Show
 
 data CellSpec = Default DefaultCellSpec | Plus CellSpecPlus
+  deriving Show
 
 pos :: CellSpec -> Natural
 pos (Default dcs) = dcsPos dcs

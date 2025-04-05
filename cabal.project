@@ -3,5 +3,5 @@ packages: ./*.cabal
 source-repository-package
     type: git
     location: https://github.com/nrs-status/mystdlib
-    tag: 2aac507
+    tag: b20773a
 
